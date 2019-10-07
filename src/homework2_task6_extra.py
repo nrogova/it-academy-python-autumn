@@ -1,11 +1,12 @@
+'''Определите, является ли число палиндромом.
+Число положительное целое, произвольной длинны.
 '''
-Определите, является ли число палиндромом (читается слева направо и справа налево одинаково).  Число положительное целое, произвольной длинны.
-'''
-#variables
-num = int(input('Enter number '))
-#logic
-if str(num) == str(num)[::-1]:
-    print('Palindrom')
 
+num = input('Enter number ')
+lst1 = list(num)
+lst2 = lst1[::-1]
+
+if lst1 == lst2:
+    print(num, 'is palindrom')
 else:
-    print('Not palindrom')
+    print(num, 'isnt palindrom')

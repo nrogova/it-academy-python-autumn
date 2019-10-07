@@ -1,7 +1,6 @@
-'''
-www.hackerrank.com (Loops)
-Task
-Read an integer N. For all non-negative integers i<N, print i**2. See the sample for details.
+'''www.hackerrank.com (Loops)
+Read an integer N.
+For all non-negative integers i<N, print i**2.
 '''
 
 N = int(input('Enter N '))
