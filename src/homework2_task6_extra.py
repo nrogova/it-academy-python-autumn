@@ -7,4 +7,4 @@ lst2 = lst1[::-1]
 if lst1 == lst2:
     print(num, 'is palindrom')
 else:
-    print(num, 'isnt palindrom')
+    print(num, 'is not palindrom')

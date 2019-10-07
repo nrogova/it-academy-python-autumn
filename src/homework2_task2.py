@@ -15,3 +15,4 @@ else:
         print('Weird')
     elif n > 20:
         print('Not Weird')
+        

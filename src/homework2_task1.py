@@ -13,6 +13,6 @@ moreN = countN % 100
 moreM = countN // 100
 countMN = countM + moreM
 if countN >= 100:
-    print(int(userL), ' единиц(ы) товара стоят ', int(countMN), ' рублей ', int(moreN), ' копеек.')
+    print('Общая цена:', int(countMN), 'рублей', int(moreN), 'копеек.')
 else:
-    print(int(userL), ' единиц(ы) товара стоят ', int(countM), ' рублей ', int(countN), ' копеек.')
+    print('Общая цена:', int(countM), 'рублей', int(countN), 'копеек.')
