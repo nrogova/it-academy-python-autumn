@@ -12,7 +12,6 @@ print(lst3)
 """2.5 Copy the above list and add '2a' back into the list
 such that the original is still missing it.
 """
-import copy
-lst4 = copy.copy(lst3)
+lst4 = lst3[:]
 lst4.insert(1, '2a')
 print(lst4)
