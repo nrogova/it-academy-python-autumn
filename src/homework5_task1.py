@@ -2,15 +2,14 @@
 where the keys are numbers between 1 and n (both included)
 and the values are square of keys. n – function argument. Default is 20.
 """
-n = 20
 
 
-def dct_n(n):
+def dct_n(n=20):
     dct = {a: a**2 for a in range(1, n + 1)}
     return dct
 
 
-print(dct_n(n))
+print(dct_n())
 
 """Define a code which count and return numbers
 of each character in count_me_string argument.
