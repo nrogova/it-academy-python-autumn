@@ -137,7 +137,7 @@ such that the original is still missing it.
 
 
 def list_compr():
-    lst1 = [x+y for x in ['a', 'b'] for y in ['b', 'c', 'd']]
+    lst1 = [x + y for x in ['a', 'b'] for y in ['b', 'c', 'd']]
     print(lst1)
 
     lst2 = lst1[::2]

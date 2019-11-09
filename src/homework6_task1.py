@@ -6,11 +6,9 @@ runner2(‘gen_numbers’) – вызывается только функцию 
 runner3(‘func’, ‘func1’...) - вызывает все переданные функции
 """
 
-all_functions = ('wierd_func', "arifm_func", 'devision_func',
-                  'square_cycle', 'palindr', 'fuzz_buzz',
-                  'list_compr', 'list_practice', 'dct_n',
-                  'count_me', 'often_text', 'cities_countries',
-                  'set_joint', 'set_differ')
+all_functions = ('wierd_func', "arifm_func", 'devision_func', 'square_cycle', 'palindr',
+                 'fuzz_buzz', 'list_compr', 'list_practice', 'dct_n', 'count_me',
+                 'often_text', 'cities_countries', 'set_joint', 'set_differ')
 
 
 def runner(*funcs):
