@@ -8,7 +8,7 @@ I tried to understand how classes work and it helps me.
 """
 
 
-class Band:
+class Band(object):
     pl_count = 0
 
     def __init__(self, name, instr, pay=90, experience=2):
